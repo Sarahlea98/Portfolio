@@ -41,6 +41,17 @@
 .skills{
     margin-bottom: 55px;
 }
+
+@media (max-width:756px) {
+    .skills-border-mobile{
+        border: 1px solid black;
+    }
+
+    .skills-border-bottom-mobile{
+        border-bottom: 1px solid black;
+    }
+}
+
 /* ----- end skills ----- */
 
 /* projects section */
@@ -109,6 +120,30 @@
     font-size: 1rem;
 }
 
+/* new project section */ 
+
+.new-project{
+    background-image: url(https://zenelidev.github.io/Portfolio/img/christopher-gower-m_HRfLhgABo-unsplash.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    filter: grayscale();
+    margin-bottom: 55px;
+
+}
+
+.new-project-text{
+    opacity: 0.7;
+    background-color: white;
+}
+
+.new-project-btn{
+    background-color: white;
+    opacity: 0.7;
+}
 /* footer */
 
 footer{

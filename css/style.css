@@ -1,6 +1,6 @@
 
 .header-img{
-    background-image: url(../img/austin-poon-JO_S6ewBqAk-unsplash.jpg);
+    background-image: url(https://sarahlea98.github.io/Portfolio/img/austin-poon-JO_S6ewBqAk-unsplash.jpg);
     height: 60vh;
     background-size: cover;
     background-position: center;
@@ -46,7 +46,7 @@
 /* projects section */
 
 .projects-img{
-    background: url(../img/damian-zaleski-RYyr-k3Ysqg-unsplash.jpg);
+    background: url(https://sarahlea98.github.io/Portfolio/img/damian-zaleski-RYyr-k3Ysqg-unsplash.jpg);
     background-size: cover;
     align-items: center;
     display: flex;
@@ -85,7 +85,7 @@
 /* about me section */
 
 .aboutMe{
-    background-image: url(../img/b-k-HAl6CKxM3xU-unsplash.jpg);
+    background-image: url(https://sarahlea98.github.io/Portfolio/img/b-k-HAl6CKxM3xU-unsplash.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -112,7 +112,7 @@
 /* footer */
 
 footer{
-    background: url(../img/footerimg1.jpg);
+    background: url(https://sarahlea98.github.io/Portfolio/img/footerimg1.jpg);
     background-size: cover;
     display: flex;
     flex-direction: column;

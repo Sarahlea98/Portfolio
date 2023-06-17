@@ -1,0 +1,154 @@
+
+.header-img{
+    background-image: url(/img/austin-poon-JO_S6ewBqAk-unsplash.jpg);
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 55px;
+    filter: grayscale();
+
+}
+
+.header-div{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.header-div h1{
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.header-div button{
+    width: 200px;
+    margin-bottom: 15px;
+}
+
+/* skills section */
+
+.col i {
+    font-size: 3rem;
+    margin-bottom: 5px;
+}
+
+.col h2{
+    margin-bottom: 1rem;
+}
+
+.skills{
+    margin-bottom: 55px;
+}
+/* ----- end skills ----- */
+
+/* projects section */
+
+.projects-img{
+    background: url(/img/damian-zaleski-RYyr-k3Ysqg-unsplash.jpg);
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+    filter: grayscale();    
+    margin-bottom: 55px;
+       
+}
+
+.card img{
+    object-fit: contain;
+    height: 8rem;
+}
+
+.card-carousel{
+    display: flex;
+    align-items: stretch;
+
+}
+
+.card{
+    flex:1;
+    height: 100%;
+}
+
+.owl-item{
+    display: flex;
+}
+
+.owl-stage{
+    display: flex;
+}
+/* ------- end projects ------- */
+
+/* about me section */
+
+.aboutMe{
+    background-image: url(/img/b-k-HAl6CKxM3xU-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    filter: grayscale();
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+
+.aboutMe-info{
+    margin-bottom: 55px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+
+.aboutMe-info i{
+    font-size: 1rem;
+}
+
+/* footer */
+
+footer{
+    background: url(/img/footerimg1.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    filter: grayscale();
+}
+
+footer i, footer h3{
+    color: white;
+    
+}
+
+/* ------------ end footer ------------------ */
+
+/* font and typo */
+
+.uppercase{
+    text-transform:uppercase;
+}
+
+ul, li {
+    list-style: none;
+    padding: 0;
+}
+
+.white{
+    color: white;
+}
+/* -------------------- */
+
+
+
+/* element styling */
+
+.br-50{
+    border-radius: 50%;
+}

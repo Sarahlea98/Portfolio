@@ -162,6 +162,18 @@ footer i, footer h3{
     
 }
 
+/* formulaire de contact */
+.formulaireContact{
+    background: url(https://zenelidev.github.io/Portfolio/img/christin-hume-mfB1B1s4sMc-unsplash.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    filter: grayscale();
+}
+
 /* ------------ end footer ------------------ */
 
 /* font and typo */

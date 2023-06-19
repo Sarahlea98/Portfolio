@@ -174,6 +174,18 @@ footer i, footer h3{
     filter: grayscale();
 }
 
+/* informations page */
+
+.informations-div{
+    background: url(https://zenelidev.github.io/Portfolio/img/emile-perron-xrVDYZRGdw4-unsplash.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    filter: grayscale();
+}
 /* ------------ end footer ------------------ */
 
 /* font and typo */

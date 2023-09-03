@@ -1,4 +1,10 @@
-
+.navbar-fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+  }
+  
 .header-img{
     background-image: url(https://zenelidev.github.io/Portfolio/img/austin-poon-JO_S6ewBqAk-unsplash.jpg);
     height: 60vh;

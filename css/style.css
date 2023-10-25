@@ -226,5 +226,5 @@ ul, li {
     background-color: none !important;
 }
 .accordion-button:focus{
-    box-shadow: none !important;
+    box-shadow: unset !important;
 }

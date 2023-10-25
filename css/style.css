@@ -225,3 +225,6 @@ ul, li {
 .accordion-button:not(.collapsed){
     background-color: none !important;
 }
+.accordion-button:focus{
+    box-shadow: none !important;
+}

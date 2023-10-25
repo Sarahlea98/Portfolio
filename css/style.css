@@ -223,7 +223,7 @@ ul, li {
     border-radius: 50%;
 }
 .accordion-button:not(.collapsed){
-    background-color: none !important;
+    background-color: unset !important;
 }
 .accordion-button:focus{
     box-shadow: unset !important;

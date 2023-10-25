@@ -228,3 +228,24 @@ ul, li {
 .accordion-button:focus{
     box-shadow: unset !important;
 }
+
+
+.informations-outils img{
+    width: 10rem;
+}
+
+.informations-outils i {
+    font-size: 2rem;
+}
+
+.steps{
+    background-color: gray;
+    padding: 1rem;
+    box-shadow: -9px -4px 3px 1px;
+}
+
+.steps-inverse{
+    box-shadow: 10px 4px 3px 1px;
+    background-color: gray;
+    padding: 1rem;
+}

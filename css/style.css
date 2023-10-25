@@ -222,3 +222,6 @@ ul, li {
 .br-50{
     border-radius: 50%;
 }
+.accordion-button:not(.collapsed){
+    background-color: none !important;
+}

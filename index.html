@@ -1,377 +1,707 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			http-equiv="X-UA-Compatible"
+			content="IE=edge"
+		/>
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+			crossorigin="anonymous"
+		/>
+		<link
+			href="css/style.css"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+		/>
+		<title>Portfolio</title>
+	</head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-  <link href="css/style.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-  <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
-  <title>Portfolio</title>
-</head>
+	<body>
+		<nav class="navbar navbar-expand-lg bg-body-tertiary navbar-fixed">
+			<div class="container">
+				<a
+					class="navbar-brand"
+					href="index.html"
+				>
+					<img
+						src="img/mepdp.jpg"
+						alt="Logo"
+						class="d-inline-block align-text-center br-50"
+					/>
+					Sarah Zeneli
+				</a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarNav"
+					aria-controls="navbarNav"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div
+					class="collapse navbar-collapse justify-content-end"
+					id="navbarNav"
+				>
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active">
+							<a
+								class="nav-link"
+								href="formulaire.html"
+								>Contact</a
+							>
+						</li>
+						<li class="nav-item">
+							<a
+								class="nav-link"
+								href="informations.html"
+								>Informations</a
+							>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<main>
+			<section class="header-img">
+				<div class="header-div">
+					<h1 class="text-uppercase text-center">Développeuse Web</h1>
+					<a
+						href="formulaire.html"
+						class="btn uppercase btn-outline-light"
+						>Contact
+					</a>
+				</div>
+			</section>
+			<div class="container">
+				<div class="skills row d-flex">
+					<h1 class="uppercase text-center mb-5">Mes compétences</h1>
+					<div
+						class="col-12 col-md text-center mb-3 mb-sm-0 skills-border-mobile"
+					>
+						<i class="fa-solid fa-code"></i>
+						<h2 class="uppercase">Front-end</h2>
+						<ul>
+							<li>HTML</li>
+							<li>CSS</li>
+							<li>React</li>
+							<li>Vue.js</li>
+							<li>Javascript</li>
+							<li>Bootstrap</li>
+							<li>Wordpress</li>
+							<li>Prestashop</li>
+							<li>SASS</li>
+						</ul>
+					</div>
+					<div
+						class="col-12 col-sm text-center mb-3 mb-sm-0 skills-border-bottom-mobile"
+					>
+						<i class="fa-solid fa-database"></i>
+						<h2 class="uppercase">Back-end</h2>
+						<ul>
+							<li>PHP</li>
+							<li>Node.JS</li>
+							<li>Express</li>
+							<li>MySQL</li>
+							<li>Phpmyadmin</li>
+							<li>MongoDB</li>
+							<li>Mariadb</li>
+							<li>CakePHP</li>
+						</ul>
+					</div>
+					<div
+						class="col-12 col-sm text-center mb-3 mb-sm-0 skills-border-bottom-mobile"
+					>
+						<i class="fa-regular fa-file-code"></i>
+						<h2 class="uppercase">Autres</h2>
+						<ul>
+							<li>Figma</li>
+							<li>Git / Github</li>
+							<li>npm</li>
+							<li>AdobeXD</li>
+							<li>SEO</li>
+							<li>Trello</li>
+							<li>Sony vegas pro 11</li>
+							<li>Adobe Photoshop</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<section class="aboutMe">
+				<h1 class="uppercase text-center white">A Propos de moi</h1>
+			</section>
+			<div class="container">
+				<div class="aboutMe-info row">
+					<div class="col-12 col-md">
+						<h2>Coordonnées & informations personnelles</h2>
+						<ul>
+							<li>
+								<i class="fa-solid fa-location-dot"></i> Résidence: Marseille
+							</li>
+							<li>
+								<i class="fa-regular fa-flag"></i> Nationnalité: Ecossaise
+							</li>
+							<li>
+								<i class="fa-solid fa-language"></i> Langues niveau courant:
+								English, Français
+							</li>
+							<li>
+								<i class="fa-solid fa-language"></i> Langues bases solides:
+								Espagnol, Shqip
+							</li>
+						</ul>
+					</div>
 
-<body>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-fixed">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">
-        <img src="img/mepdp.jpg" alt="Logo" width="80px" height="80px" class="d-inline-block align-text-center br-50">
-        Sarah Zeneli
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="formulaire.html">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link  " href="informations.html">Informations</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+					<div class="col-12 col-md">
+						<h2>Education</h2>
+						<ul>
+							<li>
+								<i class="fa-solid fa-graduation-cap"></i> Bachelor Web
+								développement - OpenClassrooms : Alternance à Marseille chez
+								Sokeo
+							</li>
+							<li>
+								<i class="fa-solid fa-graduation-cap"></i> L1 informatique &
+								MIASH - Université Paul Sabatier
+							</li>
+							<li>
+								<i class="fa-solid fa-graduation-cap"></i> Licence LLCE Anglais
+								- Université Toulouse Jean Jaurès
+							</li>
+							<li>
+								<i class="fa-solid fa-graduation-cap"></i> Licence de
+								Philosophie - Université Toulouse Jean Jaurès
+							</li>
+							<li>
+								<i class="fa-solid fa-graduation-cap"></i> Prepa Hypokhâgne -
+								Lycée Saint sernin
+							</li>
+							<li>
+								<i class="fa-solid fa-graduation-cap"></i> Bac Littéraire :
+								option audiovisuel & section européenne - Lycée Las Cases
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
 
-  <div class="header-img">
-    <div class="header-div">
-      <h1 class="text-uppercase text-center">Développeuse Web</h1>
-      <a href="formulaire.html"><button type="button" class="btn uppercase btn-outline-light">Contact</button></a>
-      <button type="button" class="btn uppercase btn-outline-light disabled">CV</button>
-    </div>
-  </div>
-  <div class="container-fluid">
-    <div class="skills row d-flex">
-      <h1 class="uppercase text-center mb-5">Mes compétences</h1>
-      <div class="col-12 col-md text-center mb-3 mb-sm-0 skills-border-mobile">
-        <i class="fa-solid fa-code"></i>
-        <h2 class="uppercase">Front-end</h2>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>React</li>
-          <li>Vue.js</li>
-          <li>Javascript</li>
-          <li>Bootstrap</li>
-          <li>Wordpress</li>
-          <li>Prestashop</li>
-          <li>SASS</li>
-        </ul>
-      </div>
-      <div class="col-12 col-sm text-center mb-3 mb-sm-0 skills-border-bottom-mobile">
-        <i class="fa-solid fa-database"></i>
-        <h2 class="uppercase">Back-end</h2>
-        <ul>
-          <li>PHP</li>
-          <li>Node.JS</li>
-          <li>Express</li>
-          <li>MySQL</li>
-          <li>Phpmyadmin</li>
-          <li>MongoDB</li>
-          <li>Mariadb</li>
-          <li>CakePHP</li>
-        </ul>
-      </div>
-      <div class="col-12 col-sm text-center mb-3 mb-sm-0 skills-border-bottom-mobile">
-        <i class="fa-regular fa-file-code"></i>
-        <h2 class="uppercase">Autres</h2>
-        <ul>
-          <li>Figma</li>
-          <li>Git / Github</li>
-          <li>npm</li>
-          <li>AdobeXD</li>
-          <li>SEO</li>
-          <li>Trello</li>
-          <li>Sony vegas pro 11</li>
-          <li>Adobe Photoshop</li>
-        </ul>
-      </div>
-    </div>
-  </div>
+			<section class="projects-img">
+				<div class="projects-div">
+					<h1 class="uppercase text-center">Quelques projets réalisés</h1>
+				</div>
+			</section>
+			<div class="container">
+				<section class="projets-carousel">
+					<div class="owl-carousel owl-theme card-carousel">
+						<div
+							class="card"
+							style="width: 18rem"
+						>
+							<img
+								class="card-img-top"
+								src="img/logo.png"
+								alt="Majorbay festival site logo"
+							/>
+							<div class="card-body">
+								<h2 class="card-title">MajorBay</h2>
+								<h3 class="card-subtitle">Front-end</h3>
+								<p class="card-text">
+									Développement de tout le front-end du site
+								</p>
+								<div
+									class="accordion"
+									id="accordionMB"
+								>
+									<div class="accordion-item">
+										<h3
+											class="accordion-header"
+											id="headingOneMB"
+										>
+											<button
+												class="accordion-button collapsed mt-3"
+												type="button"
+												data-bs-toggle="collapse"
+												data-bs-target="#collapseOneMB"
+												aria-expanded="true"
+												aria-controls="collapseOneMB"
+											>
+												Problématiques surmontées
+											</button>
+										</h3>
+										<div
+											id="collapseOneMB"
+											class="accordion-collapse collapse"
+											aria-labelledby="headingOneMB"
+											data-bs-parent="#accordionMB"
+										>
+											<div class="accordion-body">
+												Intégration d'une vidéo en iframe
+											</div>
+										</div>
+									</div>
+									<div class="accordion-item">
+										<h3
+											class="accordion-header"
+											id="headingTwoMB"
+										>
+											<button
+												class="accordion-button collapsed"
+												type="button"
+												data-bs-toggle="collapse"
+												data-bs-target="#collapseTwoMB"
+												aria-expanded="false"
+												aria-controls="collapseTwoMB"
+											>
+												Compétences acquises
+											</button>
+										</h3>
+										<div
+											id="collapseTwoMB"
+											class="accordion-collapse collapse"
+											aria-labelledby="headingTwoMB"
+											data-bs-parent="#accordionMB"
+										>
+											<div class="accordion-body">
+												<ul>
+													<li>HTML / CSS</li>
+													<li>BOOTSTRAP</li>
+													<li>Intégrer une maquette AdobeXD</li>
+													<li>Gérer des deadlines</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								<a
+									href="https://www.majorbay.fr"
+									class="btn btn-dark mt-3"
+									>Voir le projet</a
+								>
+							</div>
+						</div>
 
+						<div
+							class="card"
+							style="width: 18rem"
+						>
+							<img
+								class="card-img-top"
+								src="img/logo_anim.gif"
+								alt="RencontreCancer site logo"
+							/>
+							<div class="card-body">
+								<h2 class="card-title">Rencontre-Cancer</h2>
+								<h3 class="card-subtitle">Front-end / Back-end</h3>
+								<p class="card-text">
+									Développement de tout le front du site et implémentation des
+									données dynamiques en cakePHP + recaptcha v3 + intégration du
+									paiement par paypal
+								</p>
+								<div
+									class="accordion"
+									id="accordionRC"
+								>
+									<div class="accordion-item">
+										<h3
+											class="accordion-header"
+											id="headingOneRC"
+										>
+											<button
+												class="accordion-button collapsed mt-3"
+												type="button"
+												data-bs-toggle="collapse"
+												data-bs-target="#collapseOneRC"
+												aria-expanded="true"
+												aria-controls="collapseOneRC"
+											>
+												Problématiques surmontées
+											</button>
+										</h3>
+										<div
+											id="collapseOneRC"
+											class="accordion-collapse collapse"
+											aria-labelledby="headingOneRC"
+											data-bs-parent="#accordionRC"
+										>
+											<div class="accordion-body">
+												Utilisation du framework cakePHP - crash course suivi
+											</div>
+										</div>
+									</div>
+									<div class="accordion-item">
+										<h3
+											class="accordion-header"
+											id="headingTwoRC"
+										>
+											<button
+												class="accordion-button collapsed"
+												type="button"
+												data-bs-toggle="collapse"
+												data-bs-target="#collapseTwoRC"
+												aria-expanded="false"
+												aria-controls="collapseTwoRC"
+											>
+												Compétences acquises
+											</button>
+										</h3>
+										<div
+											id="collapseTwoRC"
+											class="accordion-collapse collapse"
+											aria-labelledby="headingTwoRC"
+											data-bs-parent="#accordionRC"
+										>
+											<div class="accordion-body">
+												<ul>
+													<li>Intégration de données dynamiques en cakePHP</li>
+													<li>recaptcha v3</li>
+													<li>Utilisation de l'API paypal</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								<a
+									href="https://www.rencontre-cancer.com/"
+									class="btn btn-dark mt-3"
+									>Voir le projet</a
+								>
+							</div>
+						</div>
 
-  <div class="projects-img">
-    <div class="projects-div">
-      <h1 class="uppercase text-center">Quelques projets réalisés</h2>
-    </div>
-  </div>
-  <div class="container-fluid">
-    <div class="projets-carousel">
-      <div class="owl-carousel owl-theme card-carousel">
+						<div
+							class="card"
+							style="width: 18rem"
+						>
+							<img
+								class="card-img-top"
+								src="img/gonter-logo.png"
+								alt="Gontero carrière site logo"
+							/>
+							<div class="card-body">
+								<h2 class="card-title">Gontero</h2>
+								<h3 class="card-subtitle">Front-end</h3>
+								<p class="card-text">
+									Refonte complète de leur ancien site web sur prestashop
+								</p>
+								<div
+									class="accordion"
+									id="accordionG"
+								>
+									<div class="accordion-item">
+										<h3
+											class="accordion-header"
+											id="headingOneG"
+										>
+											<button
+												class="accordion-button collapsed mt-3"
+												type="button"
+												data-bs-toggle="collapse"
+												data-bs-target="#collapseOneG"
+												aria-expanded="true"
+												aria-controls="collapseOneG"
+											>
+												Problématiques surmontées
+											</button>
+										</h3>
+										<div
+											id="collapseOneG"
+											class="accordion-collapse collapse"
+											aria-labelledby="headingOneG"
+											data-bs-parent="#accordionG"
+										>
+											<div class="accordion-body">
+												Découverte du cms prestashop - crash course suivi et
+												formation interne avec mon entreprise
+											</div>
+										</div>
+									</div>
+									<div class="accordion-item">
+										<h3
+											class="accordion-header"
+											id="headingTwoG"
+										>
+											<button
+												class="accordion-button collapsed"
+												type="button"
+												data-bs-toggle="collapse"
+												data-bs-target="#collapseTwoG"
+												aria-expanded="false"
+												aria-controls="collapseTwoG"
+											>
+												Compétences acquises
+											</button>
+										</h3>
+										<div
+											id="collapseTwoG"
+											class="accordion-collapse collapse"
+											aria-labelledby="headingTwoG"
+											data-bs-parent="#accordionG"
+										>
+											<div class="accordion-body">
+												<ul>
+													<li>Elementor</li>
+													<li>Prestashop</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								<a
+									href="#"
+									class="btn btn-dark mt-3"
+									>Bientôt en ligne</a
+								>
+							</div>
+						</div>
 
-        <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src="img/logo.png" alt="Majorbay festival site logo">
-          <div class="card-body">
-            <h5 class="card-title">MajorBay</h5>
-            <h6 class="card-subtitle">Front-end</h5>
-              <p class="card-text">Développement de tout le front-end du site</p>
-              <div class="accordion" id="accordionMB">
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingOneMB">
-                    <button class="accordion-button collapsed mt-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneMB" aria-expanded="true" aria-controls="collapseOneMB">
-                      Problématiques surmontées
-                    </button>
-                  </h2>
-                  <div id="collapseOneMB" class="accordion-collapse collapse" aria-labelledby="headingOneMB" data-bs-parent="#accordionMB">
-                    <div class="accordion-body">
-                      Intégration d'une vidéo en iframe 
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingTwoMB">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwoMB" aria-expanded="false" aria-controls="collapseTwoMB">
-                      Compétences acquises
-                    </button>
-                  </h2>
-                  <div id="collapseTwoMB" class="accordion-collapse collapse" aria-labelledby="headingTwoMB" data-bs-parent="#accordionMB">
-                    <div class="accordion-body">
-                      <ul>
-                        <li>HTML / CSS </li>
-                        <li>BOOTSTRAP</li>
-                        <li>Intégrer une maquette AdobeXD</li>
-                        <li>Gérer des deadlines</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <a href="https://www.majorbay.fr" class="btn btn-dark mt-3">Voir le projet</a>
-          </div>
-        </div>
+						<div
+							class="card"
+							style="width: 18rem"
+						>
+							<img
+								class="card-img-top"
+								src="img/kasa.png"
+								alt="Kasa site logo"
+							/>
+							<div class="card-body">
+								<h2 class="card-title">Kasa</h2>
+								<h3 class="card-subtitle">Front-end</h3>
+								<p class="card-text">
+									Projet réalisé pour la formation OpenClassrooms avec React
+								</p>
+								<div
+									class="accordion"
+									id="accordionExample"
+								>
+									<div class="accordion-item">
+										<h3
+											class="accordion-header"
+											id="headingOne"
+										>
+											<button
+												class="accordion-button collapsed mt-3"
+												type="button"
+												data-bs-toggle="collapse"
+												data-bs-target="#collapseOne"
+												aria-expanded="false"
+												aria-controls="collapseOne"
+											>
+												Problématiques surmontées
+											</button>
+										</h3>
+										<div
+											id="collapseOne"
+											class="accordion-collapse collapse"
+											aria-labelledby="headingOne"
+											data-bs-parent="#accordionExample"
+										>
+											<div class="accordion-body">
+												Notion de router qui était nouveau <br />
+												La mise en place de SASS <br />
+												J'ai suivi des cours fournis par openclassrooms et j'ai
+												egalement suivi un crash course de grafikart
+											</div>
+										</div>
+									</div>
+									<div class="accordion-item">
+										<h3
+											class="accordion-header"
+											id="headingTwo"
+										>
+											<button
+												class="accordion-button collapsed"
+												type="button"
+												data-bs-toggle="collapse"
+												data-bs-target="#collapseTwo"
+												aria-expanded="false"
+												aria-controls="collapseTwo"
+											>
+												Compétences acquises
+											</button>
+										</h3>
+										<div
+											id="collapseTwo"
+											class="accordion-collapse collapse"
+											aria-labelledby="headingTwo"
+											data-bs-parent="#accordionExample"
+										>
+											<div class="accordion-body">
+												<ul>
+													<li>Création de composants REACT</li>
+													<li>Utilisation de create-react-app</li>
+													<li>
+														Créer un router et mettre en places des routes
+													</li>
+													<li>Utilisation de SASS</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								<a
+									href="https://github.com/zenelidev/P6"
+									class="btn btn-dark mt-3"
+									>Voir le projet</a
+								>
+							</div>
+						</div>
 
-        <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src="img/logo_anim 3 (1).gif" alt="RencontreCancer site logo">
-          <div class="card-body">
-            <h5 class="card-title">Rencontre-Cancer</h5>
-            <h6 class="card-subtitle">Front-end / Back-end</h5>
-              <p class="card-text">Développement de tout le front du site + l'implémentation des données dynamiques en
-                cakePHP + recaptcha v3 + intégration du paiement par paypal</p>
-                <div class="accordion" id="accordionRC">
-                  <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingOneRC">
-                      <button class="accordion-button collapsed mt-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneRC" aria-expanded="true" aria-controls="collapseOneRC">
-                        Problématiques surmontées
-                      </button>
-                    </h2>
-                    <div id="collapseOneRC" class="accordion-collapse collapse" aria-labelledby="headingOneRC" data-bs-parent="#accordionRC">
-                      <div class="accordion-body">
-                        Utilisation du framework cakePHP  
-                      </div>
-                    </div>
-                  </div>
-                  <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingTwoRC">
-                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwoRC" aria-expanded="false" aria-controls="collapseTwoRC">
-                        Compétences acquises
-                      </button>
-                    </h2>
-                    <div id="collapseTwoRC" class="accordion-collapse collapse" aria-labelledby="headingTwoRC" data-bs-parent="#accordionRC">
-                      <div class="accordion-body">
-                        <ul>
-                          <li>Intégration de données dynamiques en cakePHP</li>
-                          <li>recaptcha v3</li>
-                          <li>Utilisation de l'API paypal</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              <a href="https://www.rencontre-cancer.com/" class="btn btn-dark mt-3">Voir le projet</a>
-          </div>
-        </div>
+						<div
+							class="card"
+							style="width: 18rem"
+						>
+							<img
+								class="card-img-top"
+								src="img/grimoire.png"
+								alt="Grimoire site logo"
+							/>
+							<div class="card-body">
+								<h2 class="card-title">Mon vieux grimoire</h2>
+								<h3 class="card-subtitle">Back-end</h3>
+								<p class="card-text">
+									Projet réalisé pour la formation OpenClassrooms qui consiste a
+									développer le back-end d'un site de notation de livres
+								</p>
+								<div
+									class="accordion"
+									id="accordionP7"
+								>
+									<div class="accordion-item">
+										<h3
+											class="accordion-header"
+											id="headingOneP7"
+										>
+											<button
+												class="accordion-button collapsed mt-3"
+												type="button"
+												data-bs-toggle="collapse"
+												data-bs-target="#collapseOnep7"
+												aria-expanded="false"
+												aria-controls="collapseOnep7"
+											>
+												Problématiques surmontées
+											</button>
+										</h3>
+										<div
+											id="collapseOnep7"
+											class="accordion-collapse collapse"
+											aria-labelledby="headingOneP7"
+											data-bs-parent="#accordionP7"
+										>
+											<div class="accordion-body">
+												Tester les routes sur postman qui marchent et trouver
+												pourquoi cela ne marche pas via le front <br />
+												Utilisation de CORS <br />
+												J'ai réussi à surmonter ces problèmes grâce à mes cours
+												de tutorat ainsi que des nombreux cours disponibles
+											</div>
+										</div>
+									</div>
+									<div class="accordion-item">
+										<h3
+											class="accordion-header"
+											id="headingTwoP7"
+										>
+											<button
+												class="accordion-button collapsed"
+												type="button"
+												data-bs-toggle="collapse"
+												data-bs-target="#collapseTwop7"
+												aria-expanded="false"
+												aria-controls="collapseTwop7"
+											>
+												Compétences acquises
+											</button>
+										</h3>
+										<div
+											id="collapseTwop7"
+											class="accordion-collapse collapse"
+											aria-labelledby="headingTwoP7"
+											data-bs-parent="#accordionP7"
+										>
+											<div class="accordion-body">
+												<ul>
+													<li>Créer une API</li>
+													<li>Utilisation de CORS</li>
+													<li>Optimiser des images</li>
+													<li>Utilisation de middleware</li>
+													<li>Sécurisez une base de données</li>
+													<li>Utilisation de MongoDB</li>
+													<li>Utilisation de Node.JS + Express</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								<a
+									href="https://github.com/zenelidev/P7"
+									class="btn btn-dark mt-3"
+									>Voir le projet</a
+								>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+			<div class="new-project">
+				<h1 class="text-center new-project-text p-5">
+					Avez-vous un projet en tête et cherchez-vous un développeur pour
+					concevoir votre site web ? N'hésitez pas à me contacter pour que nous
+					puissions en discuter plus en détail. Développeuse indépendante, je
+					serais ravie de collaborer avec vous!
+				</h1>
+				<a
+					href="formulaire.html"
+					class="btn uppercase btn-outline-dark new-project-btn"
+					>Formulaire de contact</a
+				>
+			</div>
+		</main>
 
-        <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src="img/gonter-logo.png" alt="Gontero carrière site logo">
-          <div class="card-body">
-            <h5 class="card-title">Gontero</h5>
-            <h6 class="card-subtitle">Front-end</h5>
-              <p class="card-text">Refonte complète de leur ancien site web sur prestashop</p>
-              <div class="accordion" id="accordionG">
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingOneG">
-                    <button class="accordion-button collapsed mt-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneG" aria-expanded="true" aria-controls="collapseOneG">
-                      Problématiques surmontées
-                    </button>
-                  </h2>
-                  <div id="collapseOneG" class="accordion-collapse collapse" aria-labelledby="headingOneG" data-bs-parent="#accordionG">
-                    <div class="accordion-body">
-                     Découverte du cms prestashop 
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingTwoG">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwoG" aria-expanded="false" aria-controls="collapseTwoG">
-                      Compétences acquises
-                    </button>
-                  </h2>
-                  <div id="collapseTwoG" class="accordion-collapse collapse" aria-labelledby="headingTwoG" data-bs-parent="#accordionG">
-                    <div class="accordion-body">
-                      <ul>
-                        <li>Elementor</li>
-                        <li>Prestashop</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <a href="#" class="btn btn-dark mt-3">Bientôt en ligne</a>
-          </div>
-        </div>
+		<footer id="footer">
+			<h3 class="mb-3">CONTACT</h3>
+			<p class="white">
+				<i class="fa-solid fa-mobile-screen-button"></i> +33 7 67 76 82 93
+			</p>
+			<p class="white">
+				<i class="fa-regular fa-envelope"></i> sarahlea1998@gmail.com
+			</p>
+			<a href="www.github.com/zenelidev"
+				><i class="fa-brands fa-github"></i> Visiter mon Github</a
+			>
+			<a href="https://www.linkedin.com/in/sarah-zeneli-a908b2216/">
+				<i class="fa-brands fa-linkedin"></i> Visiter mon Linkedin</a
+			>
+		</footer>
 
-        <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src="img/kasa.png" alt="Kasa site logo">
-          <div class="card-body">
-            <h5 class="card-title">Kasa</h5>
-            <h6 class="card-subtitle">Front-end</h5>
-              <p class="card-text">Projet réalisé pour la formation OpenClassrooms avec React
-                </p>
-              <div class="accordion" id="accordionExample">
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingOne">
-                    <button class="accordion-button collapsed mt-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-                      Problématiques surmontées
-                    </button>
-                  </h2>
-                  <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                      Notion de router qui était nouveau + la mise en place de SASS 
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                      Compétences acquises
-                    </button>
-                  </h2>
-                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                      <ul>
-                        <li>Création de composants REACT</li>
-                        <li>Utilisation de create-react-app</li>
-                        <li>Créer un router et mettre en places des routes</li>
-                        <li>Utilisation de SASS</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <a href="https:/github.com/zenelidev/P6" class="btn btn-dark mt-3">Voir le projet</a>
-          </div>
-        </div>
-
-        <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src="img/grimoire.png" alt="Grimoire site logo">
-          <div class="card-body">
-            <h5 class="card-title">Mon vieux grimoire</h5>
-            <h6 class="card-subtitle">Back-end</h5>
-              <p class="card-text">Projet réalisé pour la formation OpenClassrooms qui consiste a développer le back-end
-                d'un site de notation de livres</p>
-              <div class="accordion" id="accordionP7">
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingOneP7">
-                    <button class="accordion-button collapsed mt-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOnep7" aria-expanded="false" aria-controls="collapseOnep7">
-                      Problématiques surmontées
-                    </button>
-                  </h2>
-                  <div id="collapseOnep7" class="accordion-collapse collapse " aria-labelledby="headingOneP7" data-bs-parent="#accordionP7">
-                    <div class="accordion-body">
-                      Tester les routes sur postman qui marchent et trouver pourquoi cela ne marche pas via le front <br>
-                      Utilisation de CORS 
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingTwoP7">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwop7" aria-expanded="false" aria-controls="collapseTwop7">
-                      Compétences acquises
-                    </button>
-                  </h2>
-                  <div id="collapseTwop7" class="accordion-collapse collapse" aria-labelledby="headingTwoP7" data-bs-parent="#accordionP7">
-                    <div class="accordion-body">
-                      <ul>
-                        <li>Créer une API</li>
-                        <li>Utilisation de CORS</li>
-                        <li>Optimiser des images</li>
-                        <li>Utilisation de middleware</li>
-                        <li>Sécurisez une base de données</li>
-                        <li>Utilisation de MongoDB</li>
-                        <li>Utilisation de Node.JS + Express</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <a href="https:/github.com/zenelidev/P7" class="btn btn-dark mt-3">Voir le projet</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-
-  <div class="aboutMe">
-    <h1 class="uppercase text-center white">A Propos de moi</h1>
-  </div>
-  <div class="container-fluid">
-    <div class="aboutMe-info row">
-      <div class="col-12 col-md">
-        <h2>Coordonnées & informations personnelles</h2>
-        <ul>
-          <li><i class="fa-solid fa-location-dot"></i> Résidence: Marseille</li>
-          <li><i class="fa-regular fa-flag"></i> Nationnalité: Ecossaise</li>
-          <li><i class="fa-solid fa-language"></i> Langues niveau courant: English, Français</li>
-          <li><i class="fa-solid fa-language"></i> Langues bases solides: Espagnol, Shqip</li>
-        </ul>
-      </div>
-
-      <div class="col-12 col-md">
-        <h2>Education</h2>
-        <ul>
-          <li><i class="fa-solid fa-graduation-cap"></i> Bachelor Web développement - OpenClassrooms : Alternance à
-            Marseille chez Sokeo</li>
-          <li><i class="fa-solid fa-graduation-cap"></i> L1 informatique & MIASH - Université Paul Sabatier</li>
-          <li><i class="fa-solid fa-graduation-cap"></i> Licence LLCE Anglais - Université Toulouse Jean Jaurès</li>
-          <li><i class="fa-solid fa-graduation-cap"></i> Licence de Philosophie - Université Toulouse Jean Jaurès</li>
-          <li><i class="fa-solid fa-graduation-cap"></i> Prepa Hypokhâgne - Lycée Saint sernin</li>
-          <li><i class="fa-solid fa-graduation-cap"></i> Bac Littéraire : option audiovisuel & section européenne -
-            Lycée Las Cases</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-
-  <div class="new-project">
-    <h1 class="text-center new-project-text p-5">Avez-vous un projet en tête et cherchez-vous un développeur pour concevoir votre site web ? N'hésitez pas à me contacter pour que nous puissions en discuter plus en détail. Développeuse indépendante, je serais ravie de collaborer avec vous!
-    </h1>
-    <a href="formulaire.html"><button type="button" class="btn uppercase btn-outline-dark new-project-btn ">Formulaire
-        de contact</button></a>
-  </div>
-
-  </div>
-
-  <footer id="footer">
-    <h3 class="mb-3">CONTACT</h3>
-    <p class="white"> <i class="fa-solid fa-mobile-screen-button"></i> +33 7 67 76 82 93</p>
-    <p class="white"><i class="fa-regular fa-envelope"></i> sarahlea1998@gmail.com</p>
-  </footer>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-  <script src="js/carousel.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-    crossorigin="anonymous"></script>
-  <script src="https://kit.fontawesome.com/21e8d4cf36.js" crossorigin="anonymous"></script>
-</body>
-
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+		<script src="js/carousel.js"></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://kit.fontawesome.com/21e8d4cf36.js"
+			crossorigin="anonymous"
+		></script>
+	</body>
 </html>

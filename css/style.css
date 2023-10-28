@@ -4,6 +4,11 @@
     width: 100%;
     z-index: 999;
   }
+
+.navbar-brand img{
+    height:80px;
+    width: 80px;
+}
   
 .header-img{
     background-image: url(https://zenelidev.github.io/Portfolio/img/austin-poon-JO_S6ewBqAk-unsplash.jpg);
@@ -166,6 +171,10 @@ footer{
 footer i, footer h3{
     color: white;
     
+}
+
+footer a {
+    color: white;
 }
 
 /* formulaire de contact */
